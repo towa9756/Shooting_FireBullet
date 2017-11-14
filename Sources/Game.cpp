@@ -69,7 +69,7 @@ void Update()
 
     // スコアの描画
     SetFont("nicoca_v1.ttf", 100.0f);
-    DrawText(FormatString("%02d", score), Vector2(-300, 160), Color::black);
-    DrawText(FormatString("%02d", score), Vector2(-301, 161), Color::white);
+    DrawText(FormatString("%05d", score), Vector2(-300, 160), Color::black);
+    DrawText(FormatString("%05d", score), Vector2(-301, 161), Color::white);
 }
 
